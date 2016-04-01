@@ -1,0 +1,571 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		CAE8F7F71CAD93C800DBD165 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = CAE8F7F61CAD93C800DBD165 /* AppDelegate.swift */; };
+		CAE8F7F91CAD93C800DBD165 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = CAE8F7F81CAD93C800DBD165 /* ViewController.swift */; };
+		CAE8F7FC1CAD93C800DBD165 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = CAE8F7FA1CAD93C800DBD165 /* Main.storyboard */; };
+		CAE8F7FE1CAD93C800DBD165 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = CAE8F7FD1CAD93C800DBD165 /* Assets.xcassets */; };
+		CAE8F8011CAD93C800DBD165 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = CAE8F7FF1CAD93C800DBD165 /* LaunchScreen.storyboard */; };
+		CAE8F8061CAD93C800DBD165 /* SimpleWatchapp-Swift WatchKit App.app in Embed Watch Content */ = {isa = PBXBuildFile; fileRef = CAE8F8051CAD93C800DBD165 /* SimpleWatchapp-Swift WatchKit App.app */; };
+		CAE8F80C1CAD93C800DBD165 /* Interface.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = CAE8F80A1CAD93C800DBD165 /* Interface.storyboard */; };
+		CAE8F80E1CAD93C800DBD165 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = CAE8F80D1CAD93C800DBD165 /* Assets.xcassets */; };
+		CAE8F8151CAD93C800DBD165 /* SimpleWatchapp-Swift WatchKit Extension.appex in Embed App Extensions */ = {isa = PBXBuildFile; fileRef = CAE8F8141CAD93C800DBD165 /* SimpleWatchapp-Swift WatchKit Extension.appex */; settings = {ATTRIBUTES = (RemoveHeadersOnCopy, ); }; };
+		CAE8F81C1CAD93C800DBD165 /* InterfaceController.swift in Sources */ = {isa = PBXBuildFile; fileRef = CAE8F81B1CAD93C800DBD165 /* InterfaceController.swift */; };
+		CAE8F81E1CAD93C800DBD165 /* ExtensionDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = CAE8F81D1CAD93C800DBD165 /* ExtensionDelegate.swift */; };
+		CAE8F8201CAD93C800DBD165 /* NotificationController.swift in Sources */ = {isa = PBXBuildFile; fileRef = CAE8F81F1CAD93C800DBD165 /* NotificationController.swift */; };
+		CAE8F8221CAD93C800DBD165 /* GlanceController.swift in Sources */ = {isa = PBXBuildFile; fileRef = CAE8F8211CAD93C800DBD165 /* GlanceController.swift */; };
+		CAE8F8241CAD93C800DBD165 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = CAE8F8231CAD93C800DBD165 /* Assets.xcassets */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		CAE8F8071CAD93C800DBD165 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = CAE8F7EB1CAD93C800DBD165 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = CAE8F8041CAD93C800DBD165;
+			remoteInfo = "SimpleWatchapp-Swift WatchKit App";
+		};
+		CAE8F8161CAD93C800DBD165 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = CAE8F7EB1CAD93C800DBD165 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = CAE8F8131CAD93C800DBD165;
+			remoteInfo = "SimpleWatchapp-Swift WatchKit Extension";
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXCopyFilesBuildPhase section */
+		CAE8F82B1CAD93C800DBD165 /* Embed App Extensions */ = {
+			isa = PBXCopyFilesBuildPhase;
+			buildActionMask = 2147483647;
+			dstPath = "";
+			dstSubfolderSpec = 13;
+			files = (
+				CAE8F8151CAD93C800DBD165 /* SimpleWatchapp-Swift WatchKit Extension.appex in Embed App Extensions */,
+			);
+			name = "Embed App Extensions";
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		CAE8F82F1CAD93C800DBD165 /* Embed Watch Content */ = {
+			isa = PBXCopyFilesBuildPhase;
+			buildActionMask = 2147483647;
+			dstPath = "$(CONTENTS_FOLDER_PATH)/Watch";
+			dstSubfolderSpec = 16;
+			files = (
+				CAE8F8061CAD93C800DBD165 /* SimpleWatchapp-Swift WatchKit App.app in Embed Watch Content */,
+			);
+			name = "Embed Watch Content";
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXCopyFilesBuildPhase section */
+
+/* Begin PBXFileReference section */
+		CAE8F7F31CAD93C800DBD165 /* SimpleWatchapp-Swift.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "SimpleWatchapp-Swift.app"; sourceTree = BUILT_PRODUCTS_DIR; };
+		CAE8F7F61CAD93C800DBD165 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		CAE8F7F81CAD93C800DBD165 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
+		CAE8F7FB1CAD93C800DBD165 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		CAE8F7FD1CAD93C800DBD165 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		CAE8F8001CAD93C800DBD165 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		CAE8F8021CAD93C800DBD165 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		CAE8F8051CAD93C800DBD165 /* SimpleWatchapp-Swift WatchKit App.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "SimpleWatchapp-Swift WatchKit App.app"; sourceTree = BUILT_PRODUCTS_DIR; };
+		CAE8F80B1CAD93C800DBD165 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Interface.storyboard; sourceTree = "<group>"; };
+		CAE8F80D1CAD93C800DBD165 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		CAE8F80F1CAD93C800DBD165 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		CAE8F8141CAD93C800DBD165 /* SimpleWatchapp-Swift WatchKit Extension.appex */ = {isa = PBXFileReference; explicitFileType = "wrapper.app-extension"; includeInIndex = 0; path = "SimpleWatchapp-Swift WatchKit Extension.appex"; sourceTree = BUILT_PRODUCTS_DIR; };
+		CAE8F81A1CAD93C800DBD165 /* PushNotificationPayload.apns */ = {isa = PBXFileReference; lastKnownFileType = text; path = PushNotificationPayload.apns; sourceTree = "<group>"; };
+		CAE8F81B1CAD93C800DBD165 /* InterfaceController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = InterfaceController.swift; sourceTree = "<group>"; };
+		CAE8F81D1CAD93C800DBD165 /* ExtensionDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ExtensionDelegate.swift; sourceTree = "<group>"; };
+		CAE8F81F1CAD93C800DBD165 /* NotificationController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = NotificationController.swift; sourceTree = "<group>"; };
+		CAE8F8211CAD93C800DBD165 /* GlanceController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = GlanceController.swift; sourceTree = "<group>"; };
+		CAE8F8231CAD93C800DBD165 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		CAE8F8251CAD93C800DBD165 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		CAE8F7F01CAD93C800DBD165 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		CAE8F8111CAD93C800DBD165 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		CAE8F7EA1CAD93C800DBD165 = {
+			isa = PBXGroup;
+			children = (
+				CAE8F7F51CAD93C800DBD165 /* SimpleWatchapp-Swift */,
+				CAE8F8091CAD93C800DBD165 /* SimpleWatchapp-Swift WatchKit App */,
+				CAE8F8181CAD93C800DBD165 /* SimpleWatchapp-Swift WatchKit Extension */,
+				CAE8F7F41CAD93C800DBD165 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		CAE8F7F41CAD93C800DBD165 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				CAE8F7F31CAD93C800DBD165 /* SimpleWatchapp-Swift.app */,
+				CAE8F8051CAD93C800DBD165 /* SimpleWatchapp-Swift WatchKit App.app */,
+				CAE8F8141CAD93C800DBD165 /* SimpleWatchapp-Swift WatchKit Extension.appex */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		CAE8F7F51CAD93C800DBD165 /* SimpleWatchapp-Swift */ = {
+			isa = PBXGroup;
+			children = (
+				CAE8F7F61CAD93C800DBD165 /* AppDelegate.swift */,
+				CAE8F7F81CAD93C800DBD165 /* ViewController.swift */,
+				CAE8F7FA1CAD93C800DBD165 /* Main.storyboard */,
+				CAE8F7FD1CAD93C800DBD165 /* Assets.xcassets */,
+				CAE8F7FF1CAD93C800DBD165 /* LaunchScreen.storyboard */,
+				CAE8F8021CAD93C800DBD165 /* Info.plist */,
+			);
+			path = "SimpleWatchapp-Swift";
+			sourceTree = "<group>";
+		};
+		CAE8F8091CAD93C800DBD165 /* SimpleWatchapp-Swift WatchKit App */ = {
+			isa = PBXGroup;
+			children = (
+				CAE8F80A1CAD93C800DBD165 /* Interface.storyboard */,
+				CAE8F80D1CAD93C800DBD165 /* Assets.xcassets */,
+				CAE8F80F1CAD93C800DBD165 /* Info.plist */,
+			);
+			path = "SimpleWatchapp-Swift WatchKit App";
+			sourceTree = "<group>";
+		};
+		CAE8F8181CAD93C800DBD165 /* SimpleWatchapp-Swift WatchKit Extension */ = {
+			isa = PBXGroup;
+			children = (
+				CAE8F81B1CAD93C800DBD165 /* InterfaceController.swift */,
+				CAE8F81D1CAD93C800DBD165 /* ExtensionDelegate.swift */,
+				CAE8F81F1CAD93C800DBD165 /* NotificationController.swift */,
+				CAE8F8211CAD93C800DBD165 /* GlanceController.swift */,
+				CAE8F8231CAD93C800DBD165 /* Assets.xcassets */,
+				CAE8F8251CAD93C800DBD165 /* Info.plist */,
+				CAE8F8191CAD93C800DBD165 /* Supporting Files */,
+			);
+			path = "SimpleWatchapp-Swift WatchKit Extension";
+			sourceTree = "<group>";
+		};
+		CAE8F8191CAD93C800DBD165 /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				CAE8F81A1CAD93C800DBD165 /* PushNotificationPayload.apns */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		CAE8F7F21CAD93C800DBD165 /* SimpleWatchapp-Swift */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = CAE8F8301CAD93C800DBD165 /* Build configuration list for PBXNativeTarget "SimpleWatchapp-Swift" */;
+			buildPhases = (
+				CAE8F7EF1CAD93C800DBD165 /* Sources */,
+				CAE8F7F01CAD93C800DBD165 /* Frameworks */,
+				CAE8F7F11CAD93C800DBD165 /* Resources */,
+				CAE8F82F1CAD93C800DBD165 /* Embed Watch Content */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				CAE8F8081CAD93C800DBD165 /* PBXTargetDependency */,
+			);
+			name = "SimpleWatchapp-Swift";
+			productName = "SimpleWatchapp-Swift";
+			productReference = CAE8F7F31CAD93C800DBD165 /* SimpleWatchapp-Swift.app */;
+			productType = "com.apple.product-type.application";
+		};
+		CAE8F8041CAD93C800DBD165 /* SimpleWatchapp-Swift WatchKit App */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = CAE8F82C1CAD93C800DBD165 /* Build configuration list for PBXNativeTarget "SimpleWatchapp-Swift WatchKit App" */;
+			buildPhases = (
+				CAE8F8031CAD93C800DBD165 /* Resources */,
+				CAE8F82B1CAD93C800DBD165 /* Embed App Extensions */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				CAE8F8171CAD93C800DBD165 /* PBXTargetDependency */,
+			);
+			name = "SimpleWatchapp-Swift WatchKit App";
+			productName = "SimpleWatchapp-Swift WatchKit App";
+			productReference = CAE8F8051CAD93C800DBD165 /* SimpleWatchapp-Swift WatchKit App.app */;
+			productType = "com.apple.product-type.application.watchapp2";
+		};
+		CAE8F8131CAD93C800DBD165 /* SimpleWatchapp-Swift WatchKit Extension */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = CAE8F8281CAD93C800DBD165 /* Build configuration list for PBXNativeTarget "SimpleWatchapp-Swift WatchKit Extension" */;
+			buildPhases = (
+				CAE8F8101CAD93C800DBD165 /* Sources */,
+				CAE8F8111CAD93C800DBD165 /* Frameworks */,
+				CAE8F8121CAD93C800DBD165 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = "SimpleWatchapp-Swift WatchKit Extension";
+			productName = "SimpleWatchapp-Swift WatchKit Extension";
+			productReference = CAE8F8141CAD93C800DBD165 /* SimpleWatchapp-Swift WatchKit Extension.appex */;
+			productType = "com.apple.product-type.watchkit2-extension";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		CAE8F7EB1CAD93C800DBD165 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastSwiftUpdateCheck = 0730;
+				LastUpgradeCheck = 0730;
+				ORGANIZATIONNAME = "Bronson Dupaix";
+				TargetAttributes = {
+					CAE8F7F21CAD93C800DBD165 = {
+						CreatedOnToolsVersion = 7.3;
+						DevelopmentTeam = R99S6E3AYJ;
+					};
+					CAE8F8041CAD93C800DBD165 = {
+						CreatedOnToolsVersion = 7.3;
+						DevelopmentTeam = R99S6E3AYJ;
+					};
+					CAE8F8131CAD93C800DBD165 = {
+						CreatedOnToolsVersion = 7.3;
+						DevelopmentTeam = R99S6E3AYJ;
+					};
+				};
+			};
+			buildConfigurationList = CAE8F7EE1CAD93C800DBD165 /* Build configuration list for PBXProject "SimpleWatchapp-Swift" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = CAE8F7EA1CAD93C800DBD165;
+			productRefGroup = CAE8F7F41CAD93C800DBD165 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				CAE8F7F21CAD93C800DBD165 /* SimpleWatchapp-Swift */,
+				CAE8F8041CAD93C800DBD165 /* SimpleWatchapp-Swift WatchKit App */,
+				CAE8F8131CAD93C800DBD165 /* SimpleWatchapp-Swift WatchKit Extension */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		CAE8F7F11CAD93C800DBD165 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				CAE8F8011CAD93C800DBD165 /* LaunchScreen.storyboard in Resources */,
+				CAE8F7FE1CAD93C800DBD165 /* Assets.xcassets in Resources */,
+				CAE8F7FC1CAD93C800DBD165 /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		CAE8F8031CAD93C800DBD165 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				CAE8F80E1CAD93C800DBD165 /* Assets.xcassets in Resources */,
+				CAE8F80C1CAD93C800DBD165 /* Interface.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		CAE8F8121CAD93C800DBD165 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				CAE8F8241CAD93C800DBD165 /* Assets.xcassets in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		CAE8F7EF1CAD93C800DBD165 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				CAE8F7F91CAD93C800DBD165 /* ViewController.swift in Sources */,
+				CAE8F7F71CAD93C800DBD165 /* AppDelegate.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		CAE8F8101CAD93C800DBD165 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				CAE8F8201CAD93C800DBD165 /* NotificationController.swift in Sources */,
+				CAE8F81E1CAD93C800DBD165 /* ExtensionDelegate.swift in Sources */,
+				CAE8F81C1CAD93C800DBD165 /* InterfaceController.swift in Sources */,
+				CAE8F8221CAD93C800DBD165 /* GlanceController.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		CAE8F8081CAD93C800DBD165 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = CAE8F8041CAD93C800DBD165 /* SimpleWatchapp-Swift WatchKit App */;
+			targetProxy = CAE8F8071CAD93C800DBD165 /* PBXContainerItemProxy */;
+		};
+		CAE8F8171CAD93C800DBD165 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = CAE8F8131CAD93C800DBD165 /* SimpleWatchapp-Swift WatchKit Extension */;
+			targetProxy = CAE8F8161CAD93C800DBD165 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		CAE8F7FA1CAD93C800DBD165 /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				CAE8F7FB1CAD93C800DBD165 /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		CAE8F7FF1CAD93C800DBD165 /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				CAE8F8001CAD93C800DBD165 /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+		CAE8F80A1CAD93C800DBD165 /* Interface.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				CAE8F80B1CAD93C800DBD165 /* Base */,
+			);
+			name = Interface.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		CAE8F8261CAD93C800DBD165 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.3;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		CAE8F8271CAD93C800DBD165 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.3;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = iphoneos;
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		CAE8F8291CAD93C800DBD165 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				INFOPLIST_FILE = "SimpleWatchapp-Swift WatchKit Extension/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @executable_path/../../Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "BronxDupaix.SimpleWatchapp-Swift.watchkitapp.watchkitextension";
+				PRODUCT_NAME = "${TARGET_NAME}";
+				SDKROOT = watchos;
+				SKIP_INSTALL = YES;
+				TARGETED_DEVICE_FAMILY = 4;
+				WATCHOS_DEPLOYMENT_TARGET = 2.2;
+			};
+			name = Debug;
+		};
+		CAE8F82A1CAD93C800DBD165 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				INFOPLIST_FILE = "SimpleWatchapp-Swift WatchKit Extension/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @executable_path/../../Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "BronxDupaix.SimpleWatchapp-Swift.watchkitapp.watchkitextension";
+				PRODUCT_NAME = "${TARGET_NAME}";
+				SDKROOT = watchos;
+				SKIP_INSTALL = YES;
+				TARGETED_DEVICE_FAMILY = 4;
+				WATCHOS_DEPLOYMENT_TARGET = 2.2;
+			};
+			name = Release;
+		};
+		CAE8F82D1CAD93C800DBD165 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				EMBEDDED_CONTENT_CONTAINS_SWIFT = YES;
+				IBSC_MODULE = SimpleWatchapp_Swift_WatchKit_Extension;
+				INFOPLIST_FILE = "SimpleWatchapp-Swift WatchKit App/Info.plist";
+				PRODUCT_BUNDLE_IDENTIFIER = "BronxDupaix.SimpleWatchapp-Swift.watchkitapp";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SDKROOT = watchos;
+				SKIP_INSTALL = YES;
+				TARGETED_DEVICE_FAMILY = 4;
+				WATCHOS_DEPLOYMENT_TARGET = 2.2;
+			};
+			name = Debug;
+		};
+		CAE8F82E1CAD93C800DBD165 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				EMBEDDED_CONTENT_CONTAINS_SWIFT = YES;
+				IBSC_MODULE = SimpleWatchapp_Swift_WatchKit_Extension;
+				INFOPLIST_FILE = "SimpleWatchapp-Swift WatchKit App/Info.plist";
+				PRODUCT_BUNDLE_IDENTIFIER = "BronxDupaix.SimpleWatchapp-Swift.watchkitapp";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SDKROOT = watchos;
+				SKIP_INSTALL = YES;
+				TARGETED_DEVICE_FAMILY = 4;
+				WATCHOS_DEPLOYMENT_TARGET = 2.2;
+			};
+			name = Release;
+		};
+		CAE8F8311CAD93C800DBD165 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				INFOPLIST_FILE = "SimpleWatchapp-Swift/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "BronxDupaix.SimpleWatchapp-Swift";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Debug;
+		};
+		CAE8F8321CAD93C800DBD165 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				INFOPLIST_FILE = "SimpleWatchapp-Swift/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "BronxDupaix.SimpleWatchapp-Swift";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		CAE8F7EE1CAD93C800DBD165 /* Build configuration list for PBXProject "SimpleWatchapp-Swift" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				CAE8F8261CAD93C800DBD165 /* Debug */,
+				CAE8F8271CAD93C800DBD165 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		CAE8F8281CAD93C800DBD165 /* Build configuration list for PBXNativeTarget "SimpleWatchapp-Swift WatchKit Extension" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				CAE8F8291CAD93C800DBD165 /* Debug */,
+				CAE8F82A1CAD93C800DBD165 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+		CAE8F82C1CAD93C800DBD165 /* Build configuration list for PBXNativeTarget "SimpleWatchapp-Swift WatchKit App" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				CAE8F82D1CAD93C800DBD165 /* Debug */,
+				CAE8F82E1CAD93C800DBD165 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+		CAE8F8301CAD93C800DBD165 /* Build configuration list for PBXNativeTarget "SimpleWatchapp-Swift" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				CAE8F8311CAD93C800DBD165 /* Debug */,
+				CAE8F8321CAD93C800DBD165 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = CAE8F7EB1CAD93C800DBD165 /* Project object */;
+}

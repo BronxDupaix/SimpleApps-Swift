@@ -1,0 +1,553 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		CAACA65E1CAE1A140066EBD9 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = CAACA65D1CAE1A140066EBD9 /* AppDelegate.swift */; };
+		CAACA6601CAE1A140066EBD9 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = CAACA65F1CAE1A140066EBD9 /* ViewController.swift */; };
+		CAACA6631CAE1A140066EBD9 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = CAACA6611CAE1A140066EBD9 /* Main.storyboard */; };
+		CAACA6651CAE1A140066EBD9 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = CAACA6641CAE1A140066EBD9 /* Assets.xcassets */; };
+		CAACA6681CAE1A140066EBD9 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = CAACA6661CAE1A140066EBD9 /* LaunchScreen.storyboard */; };
+		CAACA66D1CAE1A140066EBD9 /* SimpleWatchMap-Swift WatchKit App.app in Embed Watch Content */ = {isa = PBXBuildFile; fileRef = CAACA66C1CAE1A140066EBD9 /* SimpleWatchMap-Swift WatchKit App.app */; };
+		CAACA6731CAE1A140066EBD9 /* Interface.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = CAACA6711CAE1A140066EBD9 /* Interface.storyboard */; };
+		CAACA6751CAE1A140066EBD9 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = CAACA6741CAE1A140066EBD9 /* Assets.xcassets */; };
+		CAACA67C1CAE1A140066EBD9 /* SimpleWatchMap-Swift WatchKit Extension.appex in Embed App Extensions */ = {isa = PBXBuildFile; fileRef = CAACA67B1CAE1A140066EBD9 /* SimpleWatchMap-Swift WatchKit Extension.appex */; settings = {ATTRIBUTES = (RemoveHeadersOnCopy, ); }; };
+		CAACA6811CAE1A140066EBD9 /* InterfaceController.swift in Sources */ = {isa = PBXBuildFile; fileRef = CAACA6801CAE1A140066EBD9 /* InterfaceController.swift */; };
+		CAACA6831CAE1A140066EBD9 /* ExtensionDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = CAACA6821CAE1A140066EBD9 /* ExtensionDelegate.swift */; };
+		CAACA6851CAE1A140066EBD9 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = CAACA6841CAE1A140066EBD9 /* Assets.xcassets */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		CAACA66E1CAE1A140066EBD9 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = CAACA6521CAE1A140066EBD9 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = CAACA66B1CAE1A140066EBD9;
+			remoteInfo = "SimpleWatchMap-Swift WatchKit App";
+		};
+		CAACA67D1CAE1A140066EBD9 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = CAACA6521CAE1A140066EBD9 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = CAACA67A1CAE1A140066EBD9;
+			remoteInfo = "SimpleWatchMap-Swift WatchKit Extension";
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXCopyFilesBuildPhase section */
+		CAACA68C1CAE1A140066EBD9 /* Embed App Extensions */ = {
+			isa = PBXCopyFilesBuildPhase;
+			buildActionMask = 2147483647;
+			dstPath = "";
+			dstSubfolderSpec = 13;
+			files = (
+				CAACA67C1CAE1A140066EBD9 /* SimpleWatchMap-Swift WatchKit Extension.appex in Embed App Extensions */,
+			);
+			name = "Embed App Extensions";
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		CAACA6901CAE1A140066EBD9 /* Embed Watch Content */ = {
+			isa = PBXCopyFilesBuildPhase;
+			buildActionMask = 2147483647;
+			dstPath = "$(CONTENTS_FOLDER_PATH)/Watch";
+			dstSubfolderSpec = 16;
+			files = (
+				CAACA66D1CAE1A140066EBD9 /* SimpleWatchMap-Swift WatchKit App.app in Embed Watch Content */,
+			);
+			name = "Embed Watch Content";
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXCopyFilesBuildPhase section */
+
+/* Begin PBXFileReference section */
+		CAACA65A1CAE1A140066EBD9 /* SimpleWatchMap-Swift.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "SimpleWatchMap-Swift.app"; sourceTree = BUILT_PRODUCTS_DIR; };
+		CAACA65D1CAE1A140066EBD9 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		CAACA65F1CAE1A140066EBD9 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
+		CAACA6621CAE1A140066EBD9 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		CAACA6641CAE1A140066EBD9 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		CAACA6671CAE1A140066EBD9 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		CAACA6691CAE1A140066EBD9 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		CAACA66C1CAE1A140066EBD9 /* SimpleWatchMap-Swift WatchKit App.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "SimpleWatchMap-Swift WatchKit App.app"; sourceTree = BUILT_PRODUCTS_DIR; };
+		CAACA6721CAE1A140066EBD9 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Interface.storyboard; sourceTree = "<group>"; };
+		CAACA6741CAE1A140066EBD9 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		CAACA6761CAE1A140066EBD9 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		CAACA67B1CAE1A140066EBD9 /* SimpleWatchMap-Swift WatchKit Extension.appex */ = {isa = PBXFileReference; explicitFileType = "wrapper.app-extension"; includeInIndex = 0; path = "SimpleWatchMap-Swift WatchKit Extension.appex"; sourceTree = BUILT_PRODUCTS_DIR; };
+		CAACA6801CAE1A140066EBD9 /* InterfaceController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = InterfaceController.swift; sourceTree = "<group>"; };
+		CAACA6821CAE1A140066EBD9 /* ExtensionDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ExtensionDelegate.swift; sourceTree = "<group>"; };
+		CAACA6841CAE1A140066EBD9 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		CAACA6861CAE1A140066EBD9 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		CAACA6571CAE1A140066EBD9 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		CAACA6781CAE1A140066EBD9 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		CAACA6511CAE1A140066EBD9 = {
+			isa = PBXGroup;
+			children = (
+				CAACA65C1CAE1A140066EBD9 /* SimpleWatchMap-Swift */,
+				CAACA6701CAE1A140066EBD9 /* SimpleWatchMap-Swift WatchKit App */,
+				CAACA67F1CAE1A140066EBD9 /* SimpleWatchMap-Swift WatchKit Extension */,
+				CAACA65B1CAE1A140066EBD9 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		CAACA65B1CAE1A140066EBD9 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				CAACA65A1CAE1A140066EBD9 /* SimpleWatchMap-Swift.app */,
+				CAACA66C1CAE1A140066EBD9 /* SimpleWatchMap-Swift WatchKit App.app */,
+				CAACA67B1CAE1A140066EBD9 /* SimpleWatchMap-Swift WatchKit Extension.appex */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		CAACA65C1CAE1A140066EBD9 /* SimpleWatchMap-Swift */ = {
+			isa = PBXGroup;
+			children = (
+				CAACA65D1CAE1A140066EBD9 /* AppDelegate.swift */,
+				CAACA65F1CAE1A140066EBD9 /* ViewController.swift */,
+				CAACA6611CAE1A140066EBD9 /* Main.storyboard */,
+				CAACA6641CAE1A140066EBD9 /* Assets.xcassets */,
+				CAACA6661CAE1A140066EBD9 /* LaunchScreen.storyboard */,
+				CAACA6691CAE1A140066EBD9 /* Info.plist */,
+			);
+			path = "SimpleWatchMap-Swift";
+			sourceTree = "<group>";
+		};
+		CAACA6701CAE1A140066EBD9 /* SimpleWatchMap-Swift WatchKit App */ = {
+			isa = PBXGroup;
+			children = (
+				CAACA6711CAE1A140066EBD9 /* Interface.storyboard */,
+				CAACA6741CAE1A140066EBD9 /* Assets.xcassets */,
+				CAACA6761CAE1A140066EBD9 /* Info.plist */,
+			);
+			path = "SimpleWatchMap-Swift WatchKit App";
+			sourceTree = "<group>";
+		};
+		CAACA67F1CAE1A140066EBD9 /* SimpleWatchMap-Swift WatchKit Extension */ = {
+			isa = PBXGroup;
+			children = (
+				CAACA6801CAE1A140066EBD9 /* InterfaceController.swift */,
+				CAACA6821CAE1A140066EBD9 /* ExtensionDelegate.swift */,
+				CAACA6841CAE1A140066EBD9 /* Assets.xcassets */,
+				CAACA6861CAE1A140066EBD9 /* Info.plist */,
+			);
+			path = "SimpleWatchMap-Swift WatchKit Extension";
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		CAACA6591CAE1A140066EBD9 /* SimpleWatchMap-Swift */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = CAACA6911CAE1A140066EBD9 /* Build configuration list for PBXNativeTarget "SimpleWatchMap-Swift" */;
+			buildPhases = (
+				CAACA6561CAE1A140066EBD9 /* Sources */,
+				CAACA6571CAE1A140066EBD9 /* Frameworks */,
+				CAACA6581CAE1A140066EBD9 /* Resources */,
+				CAACA6901CAE1A140066EBD9 /* Embed Watch Content */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				CAACA66F1CAE1A140066EBD9 /* PBXTargetDependency */,
+			);
+			name = "SimpleWatchMap-Swift";
+			productName = "SimpleWatchMap-Swift";
+			productReference = CAACA65A1CAE1A140066EBD9 /* SimpleWatchMap-Swift.app */;
+			productType = "com.apple.product-type.application";
+		};
+		CAACA66B1CAE1A140066EBD9 /* SimpleWatchMap-Swift WatchKit App */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = CAACA68D1CAE1A140066EBD9 /* Build configuration list for PBXNativeTarget "SimpleWatchMap-Swift WatchKit App" */;
+			buildPhases = (
+				CAACA66A1CAE1A140066EBD9 /* Resources */,
+				CAACA68C1CAE1A140066EBD9 /* Embed App Extensions */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				CAACA67E1CAE1A140066EBD9 /* PBXTargetDependency */,
+			);
+			name = "SimpleWatchMap-Swift WatchKit App";
+			productName = "SimpleWatchMap-Swift WatchKit App";
+			productReference = CAACA66C1CAE1A140066EBD9 /* SimpleWatchMap-Swift WatchKit App.app */;
+			productType = "com.apple.product-type.application.watchapp2";
+		};
+		CAACA67A1CAE1A140066EBD9 /* SimpleWatchMap-Swift WatchKit Extension */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = CAACA6891CAE1A140066EBD9 /* Build configuration list for PBXNativeTarget "SimpleWatchMap-Swift WatchKit Extension" */;
+			buildPhases = (
+				CAACA6771CAE1A140066EBD9 /* Sources */,
+				CAACA6781CAE1A140066EBD9 /* Frameworks */,
+				CAACA6791CAE1A140066EBD9 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = "SimpleWatchMap-Swift WatchKit Extension";
+			productName = "SimpleWatchMap-Swift WatchKit Extension";
+			productReference = CAACA67B1CAE1A140066EBD9 /* SimpleWatchMap-Swift WatchKit Extension.appex */;
+			productType = "com.apple.product-type.watchkit2-extension";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		CAACA6521CAE1A140066EBD9 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastSwiftUpdateCheck = 0730;
+				LastUpgradeCheck = 0730;
+				ORGANIZATIONNAME = "Bronson Dupaix";
+				TargetAttributes = {
+					CAACA6591CAE1A140066EBD9 = {
+						CreatedOnToolsVersion = 7.3;
+						DevelopmentTeam = R99S6E3AYJ;
+					};
+					CAACA66B1CAE1A140066EBD9 = {
+						CreatedOnToolsVersion = 7.3;
+						DevelopmentTeam = R99S6E3AYJ;
+					};
+					CAACA67A1CAE1A140066EBD9 = {
+						CreatedOnToolsVersion = 7.3;
+						DevelopmentTeam = R99S6E3AYJ;
+					};
+				};
+			};
+			buildConfigurationList = CAACA6551CAE1A140066EBD9 /* Build configuration list for PBXProject "SimpleWatchMap-Swift" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = CAACA6511CAE1A140066EBD9;
+			productRefGroup = CAACA65B1CAE1A140066EBD9 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				CAACA6591CAE1A140066EBD9 /* SimpleWatchMap-Swift */,
+				CAACA66B1CAE1A140066EBD9 /* SimpleWatchMap-Swift WatchKit App */,
+				CAACA67A1CAE1A140066EBD9 /* SimpleWatchMap-Swift WatchKit Extension */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		CAACA6581CAE1A140066EBD9 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				CAACA6681CAE1A140066EBD9 /* LaunchScreen.storyboard in Resources */,
+				CAACA6651CAE1A140066EBD9 /* Assets.xcassets in Resources */,
+				CAACA6631CAE1A140066EBD9 /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		CAACA66A1CAE1A140066EBD9 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				CAACA6751CAE1A140066EBD9 /* Assets.xcassets in Resources */,
+				CAACA6731CAE1A140066EBD9 /* Interface.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		CAACA6791CAE1A140066EBD9 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				CAACA6851CAE1A140066EBD9 /* Assets.xcassets in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		CAACA6561CAE1A140066EBD9 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				CAACA6601CAE1A140066EBD9 /* ViewController.swift in Sources */,
+				CAACA65E1CAE1A140066EBD9 /* AppDelegate.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		CAACA6771CAE1A140066EBD9 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				CAACA6831CAE1A140066EBD9 /* ExtensionDelegate.swift in Sources */,
+				CAACA6811CAE1A140066EBD9 /* InterfaceController.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		CAACA66F1CAE1A140066EBD9 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = CAACA66B1CAE1A140066EBD9 /* SimpleWatchMap-Swift WatchKit App */;
+			targetProxy = CAACA66E1CAE1A140066EBD9 /* PBXContainerItemProxy */;
+		};
+		CAACA67E1CAE1A140066EBD9 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = CAACA67A1CAE1A140066EBD9 /* SimpleWatchMap-Swift WatchKit Extension */;
+			targetProxy = CAACA67D1CAE1A140066EBD9 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		CAACA6611CAE1A140066EBD9 /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				CAACA6621CAE1A140066EBD9 /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		CAACA6661CAE1A140066EBD9 /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				CAACA6671CAE1A140066EBD9 /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+		CAACA6711CAE1A140066EBD9 /* Interface.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				CAACA6721CAE1A140066EBD9 /* Base */,
+			);
+			name = Interface.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		CAACA6871CAE1A140066EBD9 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.3;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		CAACA6881CAE1A140066EBD9 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.3;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = iphoneos;
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		CAACA68A1CAE1A140066EBD9 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				INFOPLIST_FILE = "SimpleWatchMap-Swift WatchKit Extension/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @executable_path/../../Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "BronxDupaix.SimpleWatchMap-Swift.watchkitapp.watchkitextension";
+				PRODUCT_NAME = "${TARGET_NAME}";
+				SDKROOT = watchos;
+				SKIP_INSTALL = YES;
+				TARGETED_DEVICE_FAMILY = 4;
+				WATCHOS_DEPLOYMENT_TARGET = 2.2;
+			};
+			name = Debug;
+		};
+		CAACA68B1CAE1A140066EBD9 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				INFOPLIST_FILE = "SimpleWatchMap-Swift WatchKit Extension/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @executable_path/../../Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "BronxDupaix.SimpleWatchMap-Swift.watchkitapp.watchkitextension";
+				PRODUCT_NAME = "${TARGET_NAME}";
+				SDKROOT = watchos;
+				SKIP_INSTALL = YES;
+				TARGETED_DEVICE_FAMILY = 4;
+				WATCHOS_DEPLOYMENT_TARGET = 2.2;
+			};
+			name = Release;
+		};
+		CAACA68E1CAE1A140066EBD9 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				EMBEDDED_CONTENT_CONTAINS_SWIFT = YES;
+				IBSC_MODULE = SimpleWatchMap_Swift_WatchKit_Extension;
+				INFOPLIST_FILE = "SimpleWatchMap-Swift WatchKit App/Info.plist";
+				PRODUCT_BUNDLE_IDENTIFIER = "BronxDupaix.SimpleWatchMap-Swift.watchkitapp";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SDKROOT = watchos;
+				SKIP_INSTALL = YES;
+				TARGETED_DEVICE_FAMILY = 4;
+				WATCHOS_DEPLOYMENT_TARGET = 2.2;
+			};
+			name = Debug;
+		};
+		CAACA68F1CAE1A140066EBD9 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				EMBEDDED_CONTENT_CONTAINS_SWIFT = YES;
+				IBSC_MODULE = SimpleWatchMap_Swift_WatchKit_Extension;
+				INFOPLIST_FILE = "SimpleWatchMap-Swift WatchKit App/Info.plist";
+				PRODUCT_BUNDLE_IDENTIFIER = "BronxDupaix.SimpleWatchMap-Swift.watchkitapp";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SDKROOT = watchos;
+				SKIP_INSTALL = YES;
+				TARGETED_DEVICE_FAMILY = 4;
+				WATCHOS_DEPLOYMENT_TARGET = 2.2;
+			};
+			name = Release;
+		};
+		CAACA6921CAE1A140066EBD9 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				INFOPLIST_FILE = "SimpleWatchMap-Swift/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "BronxDupaix.SimpleWatchMap-Swift";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Debug;
+		};
+		CAACA6931CAE1A140066EBD9 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				INFOPLIST_FILE = "SimpleWatchMap-Swift/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "BronxDupaix.SimpleWatchMap-Swift";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		CAACA6551CAE1A140066EBD9 /* Build configuration list for PBXProject "SimpleWatchMap-Swift" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				CAACA6871CAE1A140066EBD9 /* Debug */,
+				CAACA6881CAE1A140066EBD9 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		CAACA6891CAE1A140066EBD9 /* Build configuration list for PBXNativeTarget "SimpleWatchMap-Swift WatchKit Extension" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				CAACA68A1CAE1A140066EBD9 /* Debug */,
+				CAACA68B1CAE1A140066EBD9 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+		CAACA68D1CAE1A140066EBD9 /* Build configuration list for PBXNativeTarget "SimpleWatchMap-Swift WatchKit App" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				CAACA68E1CAE1A140066EBD9 /* Debug */,
+				CAACA68F1CAE1A140066EBD9 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+		CAACA6911CAE1A140066EBD9 /* Build configuration list for PBXNativeTarget "SimpleWatchMap-Swift" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				CAACA6921CAE1A140066EBD9 /* Debug */,
+				CAACA6931CAE1A140066EBD9 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = CAACA6521CAE1A140066EBD9 /* Project object */;
+}
